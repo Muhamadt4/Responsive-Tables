@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Montserrat:wght@100&family=Red+Hat+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Exo 2", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  height: 100lvh;
+  width: 100lvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-cont {
+  max-width: 60rem;
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.321);
+}
+.table-content:nth-child(even) {
+  background-color: rgba(99, 98, 98, 0.261);
+}
+th {
+  padding: 12px;
+}
